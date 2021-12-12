@@ -1,13 +1,21 @@
 {
     "name": "mackerel-advanced-graph-syntax",
+    "publisher": "stefafafan",
     "displayName": "Mackerel Advanced Graph Syntax Highlighting",
-    "description": "Syntax highlighting for Mackerel advanced graphs",
+    "description": "(Unofficial) Syntax Highlighting for the Mackerel Advanced Graphs Language.",
     "version": "0.0.1",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.63.0"
     },
     "categories": [
         "Programming Languages"
+    ],
+    "keywords": [
+        "mackerel",
+        "advanced graph",
+        "syntax",
+        "highlighting"
     ],
     "contributes": {
         "languages": [{
