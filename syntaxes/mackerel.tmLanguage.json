@@ -4,6 +4,9 @@
 	"patterns": [
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#functions"
 		}
 	],
 	"repository": {
@@ -26,6 +29,18 @@
 						"name": "constant.character.escape.mackerel",
 						"match": "\\\\."
 					}]
+				}
+			]
+		},
+		"functions": {
+			"patterns":[
+				{
+					"match": "\\b(host|service|role|roleSlots|avg|max|min|sum|product|diff|divide|scale|offset|percentile|timeShift|movingAverage|linearRegression|timeLeftForecast|group|stack|alias)\\(",
+					"captures": {
+						"1":{
+							"name": "support.function.mackerel"
+						}
+					}
 				}
 			]
 		}
