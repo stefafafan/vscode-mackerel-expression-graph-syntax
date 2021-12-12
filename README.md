@@ -16,6 +16,9 @@ Files with `.mackerel` file extension will automatically be detected.
 
 ## Release Notes
 
+### 0.0.2
+- Fix URL in README
+
 ### 0.0.1
 
 - Initial release with basic syntax highlighting.

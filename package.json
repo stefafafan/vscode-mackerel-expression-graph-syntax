@@ -3,7 +3,7 @@
     "publisher": "stefafafan",
     "displayName": "Mackerel Expression Graph Syntax Highlighting",
     "description": "(Unofficial) Syntax Highlighting for the Mackerel Expression Graphs Language.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "license": "MIT",
     "engines": {
         "vscode": "^1.63.0"
