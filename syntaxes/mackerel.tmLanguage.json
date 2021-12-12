@@ -13,6 +13,9 @@
 		},
 		{
 			"include": "#functions"
+		},
+		{
+			"include": "#variables"
 		}
 	],
 	"repository": {
@@ -51,14 +54,6 @@
 				{
 					"match": ":",
 					"name": "keyword.operator.colon.mackerel"
-				},
-				{
-					"match": "[a-zA-Z]+(\\.)",
-					"captures": {
-						"1":{
-							"name": "keyword.operator.period.mackerel"
-						}
-					}
 				}
 			]
 		},
@@ -73,6 +68,10 @@
 					}
 				}
 			]
+		},
+		"variables": {
+			"name": "support.variable.mackerel",
+			"match": "\\b(loadavg1|loadavg5|loadavg15|cpu|user|iowait|system|idle|nice|irq|softirq|steal|guest|percentage|memory|total|swap_total|swap_used|swap_cached|used|available|free|buffers|cached|disk|reads|writes|delta|interface|rxBytes|txBytes|filesystem|size|processor_queue_length|pagefile_free|pagefile_total)\\b"
 		}
 	},
 	"scopeName": "source.mackerel"
