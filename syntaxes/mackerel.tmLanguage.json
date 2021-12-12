@@ -9,6 +9,9 @@
 			"include": "#numbers"
 		},
 		{
+			"include": "#operators"
+		},
+		{
 			"include": "#functions"
 		}
 	],
@@ -37,7 +40,27 @@
 		},
 		"numbers": {
 			"name": "constant.numeric.mackerel",
-			"match": "\\b[0-9]+((m|h|d|w|mo|y)|(\\.[0-9]+))?\\b"
+			"match": "\\b[0-9]+((m|h|d|w|mo|y)|((\\.|/)[0-9]+))?\\b"
+		},
+		"operators": {
+			"patterns": [
+				{
+					"match": "\\*",
+					"name": "keyword.operator.asterisk.mackerel"
+				},
+				{
+					"match": ":",
+					"name": "keyword.operator.colon.mackerel"
+				},
+				{
+					"match": "[a-zA-Z]+(\\.)",
+					"captures": {
+						"1":{
+							"name": "keyword.operator.period.mackerel"
+						}
+					}
+				}
+			]
 		},
 		"functions": {
 			"patterns":[
