@@ -5,6 +5,8 @@ See here about Mackerel's Advanced Graphs: https://mackerel.io/docs/entry/advanc
 
 Files with `.mackerel` file extension will automatically be detected.
 
+![Sample Screenshot](sample.png)
+
 ## Features
 - Recognize syntax for
   - Function names
