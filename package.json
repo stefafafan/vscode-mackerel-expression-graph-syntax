@@ -17,6 +17,7 @@
         "syntax",
         "highlighting"
     ],
+    "homepage": "https://github.com/stefafafan/vscode-mackerel-advanced-graph-syntax",
     "contributes": {
         "languages": [{
             "id": "mackerel",
@@ -29,5 +30,9 @@
             "scopeName": "source.mackerel",
             "path": "./syntaxes/mackerel.tmLanguage.json"
         }]
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/stefafafan/vscode-mackerel-advanced-graph-syntax"
     }
 }
