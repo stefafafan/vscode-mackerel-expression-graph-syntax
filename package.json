@@ -1,8 +1,8 @@
 {
-    "name": "mackerel-advanced-graph-syntax",
+    "name": "mackerel-expression-graph-syntax",
     "publisher": "stefafafan",
-    "displayName": "Mackerel Advanced Graph Syntax Highlighting",
-    "description": "(Unofficial) Syntax Highlighting for the Mackerel Advanced Graphs Language.",
+    "displayName": "Mackerel Expression Graph Syntax Highlighting",
+    "description": "(Unofficial) Syntax Highlighting for the Mackerel Expression Graphs Language.",
     "version": "0.0.1",
     "license": "MIT",
     "engines": {
@@ -13,11 +13,11 @@
     ],
     "keywords": [
         "mackerel",
-        "advanced graph",
+        "expression graph",
         "syntax",
         "highlighting"
     ],
-    "homepage": "https://github.com/stefafafan/vscode-mackerel-advanced-graph-syntax",
+    "homepage": "https://github.com/stefafafan/vscode-mackerel-expression-graph-syntax",
     "contributes": {
         "languages": [{
             "id": "mackerel",
@@ -33,6 +33,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/stefafafan/vscode-mackerel-advanced-graph-syntax"
+        "url": "https://github.com/stefafafan/vscode-mackerel-expression-graph-syntax"
     }
 }

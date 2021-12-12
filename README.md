@@ -1,7 +1,7 @@
-# vscode-mackerel-advanced-graph-syntax
+# vscode-mackerel-expression-graph-syntax
 
-An unofficial VS Code Extension that enables syntax highlighting for the Mackerel Advanced Graphs.
-See here about Mackerel's Advanced Graphs: https://mackerel.io/docs/entry/advanced/advanced-graph
+An unofficial VS Code Extension that enables syntax highlighting for the Mackerel Expression Graphs.
+See here about Mackerel's Expression Graphs: https://mackerel.io/docs/entry/expression/expression-graph
 
 Files with `.mackerel` file extension will automatically be detected.
 
