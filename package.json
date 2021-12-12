@@ -1,0 +1,25 @@
+{
+    "name": "mackerel-advanced-graph-syntax",
+    "displayName": "Mackerel Advanced Graph Syntax Highlighting",
+    "description": "Syntax highlighting for Mackerel advanced graphs",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.63.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "mackerel",
+            "aliases": ["Mackerel", "mackerel"],
+            "extensions": [".mackerel"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "mackerel",
+            "scopeName": "source.mackerel",
+            "path": "./syntaxes/mackerel.tmLanguage.json"
+        }]
+    }
+}
